@@ -20,29 +20,29 @@ body {
 
 .col-4 {
 	max-width: 30%;
-  padding: 15px 10px!important;
-  background: white;
+	padding: 15px 10px!important;
+	background: white;
 }
 
 .col-4, .col-8 {
 	box-shadow: 0 4px 10px #00000015;
-  padding: 0;
-  margin: 10px;
-  display: inline-block;
+	padding: 0;
+	margin: 10px;
+	display: inline-block;
 	height: fit-content;
 }
 
 table td {
-  border-bottom: 1px solid #efefef!important;
+	border-bottom: 1px solid #efefef!important;
 	font-family: Verdana;
 }
 
 table tr:not(.tablesorter-ignoreRow) td {
-  padding: 4px 5px!important;
+	padding: 4px 5px!important;
 }
 
 table tr:nth-of-type(2n) td {
-  background: #f7f7f7;
+	background: #f7f7f7;
 }
 
 .tabs__caption .active::after, .tabs__caption .active::before, .tabs__caption li:last-child:before {
@@ -52,24 +52,24 @@ table tr:nth-of-type(2n) td {
 /* left tab */
 
 .tabs__caption.active, .tabs__content.active {
-  border: none;
+	border: none;
 }
 
 .tabs__caption li {
-  all: unset;
-  display: inline-block;
-  padding: 7px 20px 10px;
+	all: unset;
+	display: inline-block;
+	padding: 7px 20px 10px;
 	margin-bottom: -2px;
 	border-bottom: 2px solid #efefef;
 	transition: .2s;
 	color: darkgray;
 	font-family: Verdana;
-  font-size: 14px;
+	font-size: 14px;
 }
 
 .tabs__caption li:not(.active):hover {
 	background: #ffffff;
-  border-bottom: 2px solid #1fb09f4f;
+	border-bottom: 2px solid #1fb09f4f;
 	transition: .2s;
 	color: gray;
 }
@@ -80,11 +80,11 @@ table tr:nth-of-type(2n) td {
 }
 
 .tabs__caption {
-  all: unset;
-  display: inline-block;
+	all: unset;
+	display: inline-block;
 	margin-bottom: 10px;
-  border-bottom: 2px solid #efefef;
-  width: 100%;
+	border-bottom: 2px solid #efefef;
+	width: 100%;
 }
 
 .tablesorter-default {
@@ -92,14 +92,14 @@ table tr:nth-of-type(2n) td {
 }
 
 .col-8 {
-  background: white;
-  padding: 10px 15px 15px;
+	background: white;
+	padding: 10px 15px 15px;
 }
 
 /* breaks */
 
 .busy, .direct {
-  color: #1fb09f;
+	color: #1fb09f;
 }
 
 .tableHeader {
@@ -113,12 +113,12 @@ table tr:nth-of-type(2n) td {
 }
 
 .tableHeader::after {
-  content: '';
-  width: 30px;
-  height: 2px;
-  background: #1fb09f;
-  position: absolute;
-  display: block;
-  bottom: -2px;
-  left: 0;
+	content: '';
+	width: 30px;
+	height: 2px;
+	background: #1fb09f;
+	position: absolute;
+	display: block;
+	bottom: -2px;
+	left: 0;
 }
